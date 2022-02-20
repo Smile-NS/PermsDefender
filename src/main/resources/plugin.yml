@@ -1,0 +1,9 @@
+name: PermsDefender
+version: ${project.version}
+main: io.github.smile_ns.permsdefender.PermsDefender
+api-version: 1.16
+loadbefore: [ LuckPerms ]
+
+permissions:
+  permsdefender.defender:
+    default: op
